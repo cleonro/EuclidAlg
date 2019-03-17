@@ -5,18 +5,8 @@
 
 using namespace std;
 
-char choice()
+namespace tests
 {
-    cout << endl;
-    cout << "0) Quit" << endl;
-    cout << "1) GCD - Euclid algorithm" << endl;
-    cout << "2) Prime number test - brute force" << endl;
-    cout << "3) Prime numbers factorization" << endl;
-
-    char c = 0;
-    cin >> c;
-    return c;
-}
 
 void test_1_euclid()
 {
@@ -66,3 +56,4 @@ void test_3_prime_factorization()
     cout << endl;
 }
 
+}
